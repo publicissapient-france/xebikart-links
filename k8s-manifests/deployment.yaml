@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: xebikart-links
+spec:
+  selector:
+    matchLabels:
+      app: xebikart-tooling
+      tier: links
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: xebikart-tooling
+        tier: links
+    spec:
+      containers:
+      - name: nginx-content
+        image: eu.gcr.io/xebikart-dev-1/xebikart-links:latest
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+        imagePullPolicy: Always
+        ports:
+          - containerPort: 80
