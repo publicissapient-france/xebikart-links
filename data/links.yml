@@ -1,0 +1,21 @@
+---
+- group: Links
+  items:
+    - title: SmokeTest (L4 LoadBalancer)
+      url: http://service.smoke.xebik.art/
+      icon: fas fa-smog
+    - title: SmokeTest (L7 Ingress)
+      url: http://ingress.smoke.xebik.art/
+      icon: fas fa-bong
+    - title: Dashboard
+      url: http://dashboard.xebik.art
+      icon: fas fa-tv
+    - title: State API
+      url: http://state.xebik.art
+      icon: fas fa-cogs
+    - title: GKE Production Services
+      url: "https://console.cloud.google.com/kubernetes/discovery?project=xebikart-dev-1&service_list_tablesize=50&service_list_tablequery=%255B%257B_22k_22_3A_22is_system_22_2C_22t_22_3A11_2C_22v_22_3A_22_5C_22false_5C_22_22_2C_22s_22_3Atrue%257D_2C%257B_22k_22_3A_22metadata%252Fnamespace_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22apps-production_5C_22_22_2C_22s_22_3Atrue%257D_2C%257B_22k_22_3A_22_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22-OR-_5C_22_22_2C_22o_22_3Atrue_2C_22s_22_3Atrue%257D_2C%257B_22k_22_3A_22metadata%252Fnamespace_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22common-infra-production_5C_22_22_2C_22s_22_3Atrue%257D%255D"
+      icon: fab fa-google
+    - title: GitHub repositories
+      url: https://github.com/xebia-france?utf8=%E2%9C%93&q=xebikart&type=&language=
+      icon: fab fa-github
