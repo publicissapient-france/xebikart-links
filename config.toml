@@ -1,13 +1,13 @@
-baseURL = "http://localhost:1313"
-languageCode = "en-US"
 title = "XebiKart - Useful Links"
+
+languageCode = "en-US"
 theme = "bootstrap-bp-hugo-startpage"
-# googleAnalytics = "UA-123-45"
 copyright = "Content: Xebia / Theme: Sebastian Pech"
 enableRobotsTXT = true
 pygmentsCodeFences = true
 canonifyurls = true
 paginate = 5
+# googleAnalytics = "UA-123-45"
 
 [sitemap]
     changefreq = "weekly"
