@@ -1,0 +1,24 @@
+baseURL = "http://localhost:1313"
+languageCode = "en-US"
+title = "XebiKart - Useful Links"
+theme = "bootstrap-bp-hugo-startpage"
+# googleAnalytics = "UA-123-45"
+copyright = "Content: Xebia / Theme: Sebastian Pech"
+enableRobotsTXT = true
+pygmentsCodeFences = true
+canonifyurls = true
+paginate = 5
+
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
+
+[Author]
+  name = "Publicis Sapient Engineering (Xebia)"
+
+[params]
+  welcomeText = "Xebikart - Useful links"
+  description = "Some useful links for XebiKart, the XebiCon'19 keynote project"
+  startPageColumns = false
+  showGoogleSearch = false
+  #images = ["logo.jpg"]
